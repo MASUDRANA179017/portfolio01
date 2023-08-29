@@ -1,0 +1,90 @@
+.footer {
+    .section_one{
+        p {
+            margin-top: 50px;
+            font-size: $text_font;
+            color: $white;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+    .section_two{
+        h4{
+            color: $white;
+            margin-bottom: 30px;
+        }
+        a{
+            display: block;
+            color: $white;
+            font-size: $text_font;
+            font-weight: 500;
+            line-height: 45px;
+
+        }
+    }
+    .section_three{
+        h4{
+            color: $white;
+            margin-bottom: 30px;
+        }
+        a{
+            display: block;
+            color: $white;
+            font-size: $text_font;
+            font-weight: 500;
+            line-height: 45px;
+
+        }
+    }
+    .section_four{
+        h4{
+            color: $white;
+            margin-bottom: 30px;
+        }
+        p{
+            display: block;
+            color: $white;
+            font-size: $text_font;
+            font-weight: 500;
+            line-height: 25px;
+
+        }
+        .newsletr{
+            background-color: $white;
+            display: flex;
+            justify-content: space-between;
+            input {
+                padding: 10px;
+                border: none;
+                outline: none;
+                
+            }
+            button {
+                
+                border: none;
+                outline: none;
+                padding: 10px 20px;
+                background-color: $main_color;
+                color: $white;
+                font-size: 20px;
+                
+
+               
+            }
+        }
+        .sosialicon {
+            display: flex;
+            justify-content: start;
+            align-content: space-between;
+            margin-top: 10px;
+            .icon {
+                background-color: $main_color;
+                padding: 5px 7px;
+                margin: 5px;
+                border-radius: 50%;
+                color: $white;
+                cursor: pointer;
+            }
+        }
+    }
+}

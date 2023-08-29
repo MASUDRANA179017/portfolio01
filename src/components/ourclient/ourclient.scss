@@ -1,0 +1,62 @@
+.ourclient {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    .left_client{
+        h2{
+            font-size: $tittle_font;
+            color: $white;
+            span {
+                color: $yellow;
+            }
+        }
+        p {
+            font-size: $text_font;
+            margin-top: 20px;  
+            font-weight: 400;
+            color: $white;
+            line-height: 20px;
+        }
+        .img_section{
+            position: relative;
+            img {
+                width: 80% !important;
+                height: 100%;
+                object-fit: cover;
+            }
+            .experience {
+                width: 200px;
+                padding: 20px 20px;
+                background-color: $main_color;
+                color: $white;
+                border-top-left-radius: 10px;
+                border: 2px solid $white;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                text-align: center;
+                h4 {
+                    font-size: $tittle_font;
+                }
+               
+            }
+        }
+
+
+    }
+    .right_client {
+       
+        .client_data {
+            padding: 40px 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            background-color: #313131;
+            color: $white;
+            transition: all linear .3s;
+            &:hover {
+                background-color: $main_color;
+            }
+        }
+
+    }
+}
