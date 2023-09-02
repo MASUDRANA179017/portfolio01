@@ -1,5 +1,5 @@
 .teammenber {
-    
+    margin-top: 100px;
     h1{
 
         text-align: center;
@@ -13,13 +13,13 @@
         text-align: center;
     }
     
-    .right_team {
+    .team_img {
         position: relative;
         margin-top: 50px;
         
-        img {
+        img, svg {
             width: 100%;
-            object-fit: cover;
+            object-fit: cover !important;
         }
         .icon {
             position: absolute;
@@ -28,4 +28,53 @@
             z-index: 5;
         }
     }
+
+    .right_team {
+        position: relative;
+        margin-top: 50px;
+
+    }
+    img, svg {
+        width: 100%;
+        object-fit: cover !important;
+    }
+
+    .left_team {
+        margin-top: 50px;
+        .content_1 {
+
+            h1 {
+                text-align: left;
+                font-size: 24px;
+                font-weight: 700;
+                
+            }
+            p {
+                text-align: left;
+                font-size: $text_font;
+                font-weight: 400;
+                line-height: 30px;
+            }
+        }
+        .content_2 {
+            margin-top: 40px;
+            h1 {
+                text-align: left;
+                font-size: 24px;
+                font-weight: 700;
+                
+            }
+            p {
+                text-align: left;
+                font-size: $text_font;
+                font-weight: 400;
+                line-height: 30px;
+            }
+        }
+    }
+
+
 }
+
+
+

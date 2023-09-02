@@ -30,7 +30,7 @@ const Teammember = () => {
                 <div className="right_team">
                   <Image
                     src={teammemer}
-                    width={1000}
+                    width={700}
                     height={500}
                     alt="Banner"
                   />
@@ -41,13 +41,25 @@ const Teammember = () => {
               </div>
               <div className="col-lg-5">
                 <div className="left_team">
-                  <h1>
-                    Run Agency Smartly with Our <span>Team Member.</span>
-                  </h1>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
+                  <div className="content_1">
+                    <h1>
+                      What provide to <span>our client</span>
+                    </h1>
+                    <p>
+                      There are many variations of passages of Lorem Ipsum
+                      availabl , but the majority have suffered alteration in
+                      some for by injected humour, or randomised words which
+                      don't look.There are many variations of passages.
+                    </p>
+                  </div>
+                  <div className="content_2">
+                    <h1>
+                    Optimize for quickly  <span>display.</span>
+                    </h1>
+                    <p>
+                    There are many variations of passages of Lorem Ipsum availabl but the major.There are many variations of passages of.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
