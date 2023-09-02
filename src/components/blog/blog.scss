@@ -1,0 +1,48 @@
+.blog {
+    margin-top: 50px;
+    .content {      
+        h1{
+            text-align: center;
+            padding: 0 80px;
+            color: $white;
+            span {
+                color: $yellow;
+            }
+        }
+        p {
+            text-align: left;
+            font-size: $text_font;
+            font-weight: 400;
+            line-height: 30px;
+            color: $white;
+            text-align: center;
+        }
+    }
+
+    .slide_blog{
+        .slick-slide {
+            div {
+                margin: 0px 15px;
+            }
+        }
+        .slide_box {
+           background-color: $box_bg;
+           padding: 20px;
+
+           h3 {
+            margin-top: 24px;
+            text-align: left;
+            font-size: 24px;
+            font-weight: 700;
+            color: $white;
+            .card_bottom {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        }  
+        
+    }
+
+}

@@ -1,6 +1,5 @@
 import Device from "@/assets/Svg/Device";
 
-
 export const MenuData = [
   {
     title: "Home",
@@ -8,7 +7,7 @@ export const MenuData = [
   },
   {
     title: "Services",
-    link: "/Services",
+    link: "/",
   },
   {
     title: "Projects",
@@ -64,29 +63,62 @@ export const Resources = [
 
 export const ClientData = [
   {
-    icon: <Device/>,
+    icon: <Device />,
     title: "Digital Marketing",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
-    readMore: "start Discovery"
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+    readMore: "start Discovery",
   },
   {
-    icon: <Device/>,
+    icon: <Device />,
     title: "Digital Marketing",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
-    readMore: "start Discovery"
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+    readMore: "start Discovery",
   },
   {
-    icon: <Device/>,
+    icon: <Device />,
     title: "Digital Marketing",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
-    readMore: "start Discovery"
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+    readMore: "start Discovery",
   },
   {
-    icon: <Device/>,
+    icon: <Device />,
     title: "Digital Marketing",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
-    readMore: "start Discovery"
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+    readMore: "start Discovery",
   },
 ];
+export const SlideData = [
+  {
+    image: <Device />,
+    title: "Bitcoin and Economic Freedom",
 
-
+    date: "10 January 2023",
+    readMore: "start Discovery",
+    link: "/",
+  },
+  {
+    image: <Device />,
+    title: "Market and Economic Strategy",
+    date: "10 January 2023",
+    readMore: "start Discovery",
+    link: "/",
+  },
+  {
+    image: <Device />,
+    title: "Digital and Economic Finance",
+    date: "10 January 2023",
+    readMore: "Read More",
+    link: "/",
+  },
+  {
+    image: <Device />,
+    title: "Digital Marketing",
+    date: "10 January 2023",
+    readMore: "start Discovery",
+    link: "/",
+  },
+];

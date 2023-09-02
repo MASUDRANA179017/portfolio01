@@ -4,7 +4,6 @@ import teammemer from "@/assets/teambanar.png";
 import Image from "next/image";
 import Teammembericon from "@/assets/Svg/teammembericon";
 import { motion, useTime, useTransform } from "framer-motion";
-
 const App = () => {
   const time = useTime();
   const rotate = useTransform(time, [0, 4000], [0, 360], { clamp: false });
@@ -31,7 +30,7 @@ const Teammember = () => {
                   <Image
                     src={teammemer}
                     width={700}
-                    height={500}
+                    height={450}
                     alt="Banner"
                   />
                   <motion.div className="icon">
@@ -54,12 +53,19 @@ const Teammember = () => {
                   </div>
                   <div className="content_2">
                     <h1>
-                    Optimize for quickly  <span>display.</span>
+                      Optimize for quickly <span>display.</span>
                     </h1>
                     <p>
-                    There are many variations of passages of Lorem Ipsum availabl but the major.There are many variations of passages of.
+                      There are many variations of passages of Lorem Ipsum
+                      availabl but the major.There are many variations of
+                      passages of.
                     </p>
                   </div>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ type: "spring", stiffness: 300 }}>
+                    Contact Now
+                  </motion.button>
                 </div>
               </div>
             </div>
