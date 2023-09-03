@@ -1,4 +1,10 @@
 import Device from "@/assets/Svg/Device";
+import Emadfashion from "@/assets/Svg/Partnerlogo/emadfashion";
+import HappyMart from "@/assets/Svg/Partnerlogo/happymart";
+import Loricarcker from "@/assets/Svg/Partnerlogo/loricracker";
+import blog1 from "@/assets/blog/blog1.png";
+import blog2 from "@/assets/blog/blog1.png";
+import blog3 from "@/assets/blog/blog1.png";
 
 export const MenuData = [
   {
@@ -48,15 +54,19 @@ export const Resources = [
     link: "/",
   },
   {
-    title: "Project",
+    title: "Challenges",
     link: "/",
   },
   {
-    title: "Project",
+    title: "Pro Membership",
     link: "/",
   },
   {
-    title: "Project",
+    title: "For Business",
+    link: "/",
+  },
+  {
+    title: "Support",
     link: "/",
   },
 ];
@@ -93,9 +103,8 @@ export const ClientData = [
 ];
 export const SlideData = [
   {
-    image: <Device />,
+    image:"",
     title: "Bitcoin and Economic Freedom",
-
     date: "10 January 2023",
     readMore: "start Discovery",
     link: "/",
@@ -122,3 +131,31 @@ export const SlideData = [
     link: "/",
   },
 ];
+
+
+export const PartnerLogo = [
+  {
+    logo : <HappyMart/>,
+    link: "#"
+  },
+  {
+    logo : <Loricarcker/>,
+    link: "#"
+  },
+  {
+    logo : <Emadfashion/>,
+    link: "#"
+  },
+  {
+    logo : <HappyMart/>,
+    link: "#"
+  },
+  {
+    logo : <HappyMart/>,
+    link: "#"
+  },
+  {
+    logo : <Emadfashion/>,
+    link: "#"
+  },
+]

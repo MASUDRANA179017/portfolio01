@@ -1,5 +1,6 @@
 nav {
     background-color: $body_color !important;
+    position: sticky;
     .navbar-nav{
         a {
             font-size: 18px;

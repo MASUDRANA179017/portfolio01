@@ -1,0 +1,30 @@
+
+.newsletter {
+    margin: 100px 0;
+    .news_content {
+       background-color: $main_color;
+       padding: 100px 50px;
+       border-radius: 0 24px 0 24px;
+        h2 {
+            color: $white;
+            font-size: 42px;
+        }
+        input {
+            padding: 13px;
+            border: none;
+            outline: none;
+            border-radius: 8px 0 0 8px;
+            width: 80%;
+        }
+        button {
+            outline: none;
+            margin-top: 0px;
+            padding: 5px 8px;
+            background-color: #6344C6;
+            color: #FFF;
+            font-size: 18px;
+            border: 7px solid #FFF;
+            border-radius: 0 8px 8px 0;
+        }    
+}
+}

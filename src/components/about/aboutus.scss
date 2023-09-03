@@ -1,10 +1,10 @@
-.blog {
-    margin-top: 100px;
-    .content { 
-        margin-bottom: 40px;    
+
+.aboutUs {
+    margin: 100px 0;
+    .content {   
         h1{
             text-align: center;
-            padding: 0 70px;
+            padding: 0 80px;
             color: $white;
             span {
                 color: $yellow;
@@ -20,9 +20,11 @@
         }
     }
 
-    .slide_blog{
+    .slide_review{
         position: relative;
+        margin-top: 100px;
         .slick-slide {
+            margin-top: 50px;
             div {
                 margin: 0px 10px;
                 .card_bottom {
@@ -32,17 +34,17 @@
                 }
             }
             .slide_box {
-               background-color: $box_bg;
-               padding: 20px;
-               border-radius: 16px;
-    
-               img {
+            background-color: $box_bg;
+            padding: 20px;
+            border-radius: 16px;
+
+            img {
                 width: 100%;
                 object-fit: cover;
                 border-radius: 16px;
-               }
-    
-               h3 {
+            }
+
+            h3 {
                 margin-top: 24px;
                 text-align: left;
                 font-size: 24px;
@@ -50,10 +52,16 @@
                 color: $white;
                 padding-right: 40px;
             }
-    
+
             }  
         }
         
-    }
+        .slick-current {
+            transform: translateY(-50px);
+            .slide_box {
+                background-color: $main_color;
 
+            }
+        }
+    }
 }
