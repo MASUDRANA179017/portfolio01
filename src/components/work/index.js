@@ -42,7 +42,7 @@ const Work = () => {
               <div>
                 <div className="top_content">
                   <h1>
-                    How it <span>Work</span>
+                  What provide to  <span>Work</span>
                   </h1>
                   <p>
                     There are many variations of passages of Lorem Ipsum

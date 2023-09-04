@@ -23,35 +23,79 @@
     .slide_review{
         position: relative;
         margin-top: 100px;
+        position: relative;
+
+        
+        .prevArrow {
+            position: absolute;
+            top: -50px;
+            right: 50px;
+            z-index: 1;
+            cursor: pointer;
+        }
+        .nextArrow {
+            position: absolute;
+            top: -50px;
+            right: 0px;
+            z-index: 1;
+            cursor: pointer;
+        }
         .slick-slide {
             margin-top: 50px;
             div {
                 margin: 0px 10px;
-                .card_bottom {
-                    justify-content: space-between;
-                    display: flex;
-                    color: $white;
-                }
+                // .card_bottom {
+                //     justify-content: space-between;
+                //     display: flex;
+                //     color: $white;
+                // }
             }
             .slide_box {
             background-color: $box_bg;
-            padding: 20px;
-            border-radius: 16px;
-
-            img {
-                width: 100%;
-                object-fit: cover;
-                border-radius: 16px;
-            }
-
+            padding: 30px;
+            border-radius:0 24px 0 24px;
             h3 {
-                margin-top: 24px;
-                text-align: left;
-                font-size: 24px;
-                font-weight: 500;
+                font-size: 18px;
+                line-height: normal;
+                font-weight: 400;
                 color: $white;
-                padding-right: 40px;
             }
+
+            
+            .card_bottom {
+                display: flex;
+                align-items: center;
+                
+                // justify-content: center;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    object-fit: cover;
+                    border-radius: 100%;
+
+                }
+    
+                .author {
+                    h4{
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: $white;
+                        padding-right: 40px;
+
+                    }
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $white;
+                        padding-right: 40px;
+
+                    }
+
+                }
+
+            }
+            
 
             }  
         }

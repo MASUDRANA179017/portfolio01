@@ -6,8 +6,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { MenuData } from '../data/commonData';
 import logo from '../../assets/logo.png';
-import { DM_Sans } from 'next/font/google' 
 import Image from 'next/image';
+import { DM_Sans } from 'next/font/google' 
 const dmSans = DM_Sans({
   subsets: ['latin'],
   variable: '--font-inter',

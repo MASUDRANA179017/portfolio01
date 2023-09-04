@@ -5,6 +5,16 @@ import digitalmarketing from "@/assets/digitalmarketing.png";
 import Image from "next/image";
 import { CountUp } from 'use-count-up'
 import { ClientData } from "../data/commonData";
+
+import { Montserrat, DM_Sans } from "next/font/google";
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 const OurClient = () => {
   return (
     <>
@@ -18,12 +28,12 @@ const OurClient = () => {
           <div className="row align-items-end justify-content-between">
             <div className="col-lg-5">
               <div className="left_client">
-                <h2>
+                <h2 className={montserrat.className}>
                   What we provide to
                   <br />
                   <span> our Client</span>
                 </h2>
-                <p>
+                <p className={montserrat.className}>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have.
                 </p>
@@ -41,7 +51,7 @@ const OurClient = () => {
                     }}
                     className="experience">
                     <h4><CountUp isCounting end={10} duration={3.2} />+</h4>
-                    <p>Years of experience</p>
+                    <p className={montserrat.className}>Years of experience</p>
                   </motion.div>
                 </div>
               </div>
@@ -54,8 +64,8 @@ const OurClient = () => {
                       <div className="col-lg-6" key={i}>
                         <div className="client_data">
                           <i>{item.icon}</i>
-                          <h4>{item.title}</h4>
-                          <p>{item.description}</p>
+                          <h4 className={montserrat.className}>{item.title}</h4>
+                          <p className={dmSans.className}>{item.description}</p>
                         </div>
                       </div>
                     ))

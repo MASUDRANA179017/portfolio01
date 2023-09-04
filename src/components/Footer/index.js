@@ -3,12 +3,12 @@ import Link from "next/link";
 import React from "react";
 import logo from "@/assets/logo.png";
 import Image from "next/image";
-import { Montserrat, DM_Sans } from "next/font/google";
 import { Resources, Services } from "../data/commonData";
 import { IoIosSend } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 
+import { Montserrat, DM_Sans } from "next/font/google";
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-inter",

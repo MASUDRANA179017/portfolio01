@@ -5,6 +5,7 @@
 
         font-size: 72px;
         color: $white;
+        font-weight: 700;
     }
     span {
         color: $yellow;
@@ -13,10 +14,9 @@
     p {
         font-size: $text_font;
         margin-top: 20px;
-        padding: 20px;
         font-weight: 400;
         color: $white;
-        line-height: 20px;
+        line-height: 30px;
     }
     button {
         padding: 10px 40px;
@@ -25,6 +25,8 @@
         border-radius: 6px;
         border: none;
         outline: none;
+        font-size: 20px;
+        font-weight: 700;
     }
     .banner_img {
         margin-top: 50px;

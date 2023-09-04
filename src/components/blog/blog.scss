@@ -6,6 +6,10 @@
             text-align: center;
             padding: 0 70px;
             color: $white;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: normal;
+            padding: 0 10px;
             span {
                 color: $yellow;
             }
@@ -22,6 +26,23 @@
 
     .slide_blog{
         position: relative;
+
+        
+        .prevArrow {
+            position: absolute;
+            bottom: -50px;
+            left: 45%;
+            z-index: 1;
+            cursor: pointer;
+        }
+        .nextArrow {
+            position: absolute;
+            bottom: -50px;
+            right: 45%;
+            z-index: 1;
+            cursor: pointer;
+        }
+
         .slick-slide {
             div {
                 margin: 0px 10px;
@@ -51,6 +72,7 @@
                 padding-right: 40px;
             }
     
+            
             }  
         }
         

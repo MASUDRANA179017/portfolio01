@@ -76,28 +76,28 @@ export const ClientData = [
     icon: <Device />,
     title: "Digital Marketing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+      "Web applications provide a flexible solution thank to their plat independent ",
     readMore: "start Discovery",
   },
   {
     icon: <Device />,
-    title: "Digital Marketing",
+    title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+      "Web applications provide a flexible solution thank to their plat independent",
     readMore: "start Discovery",
   },
   {
     icon: <Device />,
-    title: "Digital Marketing",
+    title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+      "Web applications provide a flexible solution thank to their plat independent ",
     readMore: "start Discovery",
   },
   {
     icon: <Device />,
-    title: "Digital Marketing",
+    title: "Graphic Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus placeat ",
+      "Web applications provide a flexible solution thank to their plat independent ",
     readMore: "start Discovery",
   },
 ];

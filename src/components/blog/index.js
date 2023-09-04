@@ -7,18 +7,52 @@ import Image from "next/image";
 import blog1 from "@/assets/blog/blog1.png";
 import blog2 from "@/assets/blog/blog2.png";
 import blog3 from "@/assets/blog/blog3.png";
+import PrevArrow from "./prevArrow";
+import NextArrow from "./nextArrow";
+
+
+import { Montserrat, DM_Sans } from "next/font/google";
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 const Blog = () => {
   const settings = {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 5000,
+    speed: 1000,
     autoplaySpeed: 2000,
+    arrows: true,
+    prevArrow: <PrevArrow/>,
+    nextArrow: <NextArrow/>,
+    responsive: [
+      
+      {
+        breakpoint: 789,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
     
   };
   return (
@@ -28,10 +62,10 @@ const Blog = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6">
               <div className="content">
-                <h1>
+                <h1 className={montserrat.className}>
                   Our Popular Project <span>And Blog</span>
                 </h1>
-                <p>
+                <p className={montserrat.className}>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration.
                 </p>

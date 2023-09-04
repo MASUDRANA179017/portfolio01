@@ -16,6 +16,7 @@
             font-weight: 400;
             color: $white;
             line-height: 20px;
+            margin-bottom: 40px;
         }
         .img_section{
             position: relative;
@@ -55,6 +56,17 @@
             transition: all linear .3s;
             &:hover {
                 background-color: $main_color;
+            }
+            h4{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 15px;
+            }
+            p {
+                font-size: $text_font;
+                font-weight: 400;
+                line-height: 30px;
             }
         }
 

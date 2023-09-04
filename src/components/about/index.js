@@ -7,20 +7,24 @@ import Image from "next/image";
 import blog1 from "@/assets/blog/blog1.png";
 import blog2 from "@/assets/blog/blog2.png";
 import blog3 from "@/assets/blog/blog3.png";
+import PrevArrow from "./prevArrow";
+import NextArrow from "./nextArrow";
 
 const AboutUs = () => {
   const settings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     startMode: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     className: "center",
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
   };
   return (
     <>
@@ -37,46 +41,88 @@ const AboutUs = () => {
             <div className="col-lg-12">
               <div className="slide_review">
                 <Slider {...settings}>
-                  <div className="slide_box">
-                    <Image src={blog1} width={500} height={220} alt="Banner" />
-                    <h3>Bitcoin and Economic Freedom</h3>
+                <div className="slide_box">
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
                     <div className="card_bottom">
-                      <span>
-                        <Link href="/">Read More</Link>
-                      </span>
-                      <span>10 January 2023</span>
-                    </div>
-                  </div>
-                  <div className="slide_box">
-                    <Image src={blog2} width={500} height={220} alt="Banner" />
-                    <h3>Bitcoin and Economic Freedom</h3>
-                    <div className="card_bottom">
-                      <div className="link">
-                        <Link href="/">Read More</Link>
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <h4>James Willy</h4>
+                        <p>CEO GTEX</p>
                       </div>
-                      <div>10 January 2023</div>
                     </div>
                   </div>
                   <div className="slide_box">
-                    <Image src={blog3} width={500} height={220} alt="Banner" />
-                    <h3>Bitcoin and Economic Freedom</h3>
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
                     <div className="card_bottom">
-                      <div className="link">
-                        <Link href="/">Read More</Link>
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <h4>James Willy</h4>
+                        <p>CEO GTEX</p>
                       </div>
-                      <div>10 January 2023</div>
                     </div>
                   </div>
                   <div className="slide_box">
-                    <Image src={blog2} width={500} height={220} alt="Banner" />
-                    <h3>Bitcoin and Economic Freedom</h3>
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
                     <div className="card_bottom">
-                      <div className="link">
-                        <Link href="/">Read More</Link>
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <h4>James Willy</h4>
+                        <p>CEO GTEX</p>
                       </div>
-                      <div>10 January 2023</div>
                     </div>
                   </div>
+                  <div className="slide_box">
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
+                    <div className="card_bottom">
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <h4>James Willy</h4>
+                        <p>CEO GTEX</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slide_box">
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
+                    <div className="card_bottom">
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <h4>James Willy</h4>
+                        <p>CEO GTEX</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slide_box">
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
+                    <div className="card_bottom">
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <h4>James Willy</h4>
+                        <p>CEO GTEX</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slide_box">
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
+                    <div className="card_bottom">
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <h4>James Willy</h4>
+                        <p>CEO GTEX</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slide_box">
+                    <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</h3>
+                    <div className="card_bottom">
+                      <Image src={blog1} width={10} height={20} alt="Banner" />
+                      <div className="author">
+                        <div>James Willy</div>
+                        <div>CEO GTEX</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
                 </Slider>
               </div>
             </div>

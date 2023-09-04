@@ -3,6 +3,20 @@ import React from "react";
 import { motion } from "framer-motion";
 import bannner from "@/assets/Banar.png"
 import Image from "next/image";
+
+import { Montserrat, DM_Sans } from "next/font/google";
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+
+
+
 const Banar = () => {
   return (
     <>
@@ -14,15 +28,15 @@ const Banar = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <h2>
+              <h2 className={montserrat.className}>
                 <span>Builds</span> your great portfolio <span>Website</span>
               </h2>
-              <p>
+              <p className={dmSans.className}>
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised.
               </p>
-              <motion.button whileHover={{ scale: 1.05 }} transition={{type: 'spring', stiffness: 300,}}>
+              <motion.button className={dmSans.className} whileHover={{ scale: 1.05 }} transition={{type: 'spring', stiffness: 300,}}>
                 Contact Now
               </motion.button>
             </div>
