@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="col-lg-3">
               <div className="section_one">
                 <Link href="/">
-                <Image src={logo} loading='lazy'/>
+                <Image src={logo} loading='lazy' alt="logo"/>
                 </Link>
                 <div>
                   <p className={montserrat.className}>

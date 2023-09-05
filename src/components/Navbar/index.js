@@ -19,7 +19,7 @@ const Header = () => {
       <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-            <Image src={logo} loading='lazy'/>
+            <Image src={logo} loading='lazy' alt='logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

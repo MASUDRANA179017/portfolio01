@@ -57,9 +57,9 @@ const Teammember = () => {
                     </h1>
                     <p>
                       There are many variations of passages of Lorem Ipsum
-                      availabl , but the majority have suffered alteration in
-                      some for by injected humour, or randomised words which
-                      don't look.There are many variations of passages.
+                      available, but the majority have suffered alteration in
+                      some for by injected humour, or randomized words which
+                      dont look.There are many variations of passages.
                     </p>
                   </div>
                   <div className="content_1">

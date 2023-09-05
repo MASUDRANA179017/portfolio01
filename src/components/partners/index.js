@@ -20,6 +20,24 @@ const Partners = () => {
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 2000,
+    responsive: [
+      
+      {
+        breakpoint: 789,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <>
